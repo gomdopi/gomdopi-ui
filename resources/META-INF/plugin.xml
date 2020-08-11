@@ -1,19 +1,18 @@
 <idea-plugin>
-  <id>com.your.company.unique.plugin.id</id>
-  <name>Plugin display name here</name>
+  <id>io.gomdopi</id>
+  <name>gomdopi-ui</name>
   <version>1.0</version>
-  <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+  <vendor email="io.gomdopi@gmail.com" url="http://github.com/gomdopi">gomdopi</vendor>
 
   <description><![CDATA[
-      Enter short description for your plugin here.<br>
-      <em>most HTML tags may be used</em>
-    ]]></description>
+      <h1>gomdopi's Dark Theme</h1>
+      <h2>Simple dark theme made by gomdopi.</h2>
+  ]]></description>
 
   <change-notes><![CDATA[
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>
-    ]]>
-  </change-notes>
+      <h1>Change Notes</h1>
+      <h2>No changes notes yet. This is initial version.</h2>
+  ]]></change-notes>
 
   <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
   <idea-version since-build="173.0"/>
@@ -24,6 +23,7 @@
 
   <extensions defaultExtensionNs="com.intellij">
     <!-- Add your extensions here -->
+    <themeProvider id="c83a97da-c0dc-4588-b8b6-3d5f348f5b6f" path="/gomdopi-ui.theme.json"/>
   </extensions>
 
   <actions>
