@@ -1,20 +1,22 @@
-Simple dark theme with custom colors for IntelliJ products
+Simple dark theme with custom colors for IntelliJ products.
+
+Also comes with a custom keymap.
 
 [IntelliJ Plugin Docs](https://jetbrains.org/intellij/sdk/docs/basics/getting_started.html)
 
 # Installation
 - ## Clone Git Repo
-  ```
+  ```zsh
   $ cd ${local-git-dir}
   $ git clone git@github.com:gomdopi/gomdopi-ui.git
   $ cd gomdopi-ui
-  $ cp resources/keymap/gomdopi.xml ~/.config/JetBrains/IdeaIC<version>/keymaps/${custom-keymap.xml}
+  $ cp resources/keymap/gomdopi.xml ~/.config/JetBrains/IdeaIC<version>/keymaps/
   ```
   - Restart IntelliJ
   - File -> Settings -> Plugins -> Install Plugin from Disk... -> Select `gomdopi-ui/gomdopi-ui.jar`
-  - File -> Settings -> Keymap -> Select `GNOME/gomdopi.xml`
+  - File -> Settings -> Keymap -> Select `GNOME/gomdopi`
   
-  > If keymap file is missing check out: [Generate keymap xml](https://github.com/gomdopi/gomdopi-ui#generate-keymap-xml)
+  > If keymap file is missing check out: [Generate Keymap Xml](https://github.com/gomdopi/gomdopi-ui#generate-keymap-xml)
 	
 - ## Generate Keymap Xml
   1. Duplicate one of the default keymaps (e.g. GNOME)
